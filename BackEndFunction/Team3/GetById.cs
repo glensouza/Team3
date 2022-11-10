@@ -26,7 +26,7 @@ namespace Team3
         }
 
         [FunctionName("GetById")]
-        [OpenApiOperation(operationId: "Run", tags: new[] { "id" })]
+        [OpenApiOperation(operationId: "Run", tags: new[] { "Get" })]
         [OpenApiSecurity("function_key", SecuritySchemeType.ApiKey, Name = "code", In = OpenApiSecurityLocationType.Query)]
         [OpenApiParameter(name: "id", In = ParameterLocation.Path, Required = true, Type = typeof(string), Description = "The **Id** parameter")]
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "text/plain", bodyType: typeof(HealthCheck), Description = "The OK response")]
