@@ -8,7 +8,7 @@ namespace Team3.Models
         [JsonPropertyName("id")]
         public string Id { get; set; }
         [JsonPropertyName("patientId")]
-        public int PatientId { get; set; }
+        public string PatientId { get; set; }
         [JsonPropertyName("submissionDateTime")]
         public DateTime SubmissionDateTime { get; set; }
         [JsonPropertyName("healthStatus")]
