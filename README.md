@@ -11,7 +11,7 @@ Data to be captured by front-end:
 ## Sample model to be saved in document store:
 ```json
 {
-  "submissionId": 1,
+  "id": 1,
   "patientId": 1,
   "submissionDateTime": "2020-04-29T00:00:00.000Z",
   "healthStatus": "I feel unwell",

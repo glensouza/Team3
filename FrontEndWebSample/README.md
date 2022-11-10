@@ -47,7 +47,6 @@ Once you clone the project, open the solution in [Visual Studio 2022](https://vi
 - **Client**: The Blazor WebAssembly sample application
 - **Api**: A C# Azure Functions API, which the Blazor application will call
 - **Shared**: A C# class library with a shared data model between the Blazor and Functions application
-- **ApiIsolated**: A C# Azure Functions API using the .NET isolated execution model, which the Blazor application will call. This version can be used instead of the in-process function app in `Api`.
 
 ## Deploy to Azure Static Web Apps
 
