@@ -29,7 +29,7 @@ namespace Team3
         [OpenApiOperation(operationId: "Run", tags: new[] { "Get" })]
         [OpenApiSecurity("function_key", SecuritySchemeType.ApiKey, Name = "code", In = OpenApiSecurityLocationType.Query)]
         [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "text/plain", bodyType: typeof(List<HealthCheck>), Description = "The OK response")]
-        public async Task<IActionResult> Run(
+        public IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             [CosmosDB("Team3", "HealthChecks",
                 ConnectionStringSetting = "CosmosDBConnection",
