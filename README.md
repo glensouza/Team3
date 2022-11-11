@@ -1,4 +1,4 @@
-# Team 3
+# Designing solution to win the app platform (technical application workshop) **Team 3**
 
 Data to be captured by front-end:
 
@@ -20,3 +20,15 @@ Data to be captured by front-end:
 ```
 ## Architecture:
 ![Architecture](team3.architecture.drawio.png)
+
+for APIM to consume based on OpenAPI:
+https://msworkshopteam3.azurewebsites.net/api/swagger.json
+
+swagger UI:
+https://msworkshopteam3.azurewebsites.net/api/swagger/ui
+
+use this function key to authenticate before you send a request:
+2xxU3TQaopxYv9SyTEdmW8sknbmjL8BKPPmBRRqE4D3sAzFuwzk-BA==
+
+and for GitHub actions running to deploy to Azure Function:
+https://github.com/glensouza/Team3/actions
