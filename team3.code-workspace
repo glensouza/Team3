@@ -12,5 +12,8 @@
             "path":"FrontEndWebSample",
             "name":"FrontEndWebSample"
         }
-    ]
+    ],
+    "settings": {
+        "debug.internalConsoleOptions": "neverOpen"
+    }
 }
